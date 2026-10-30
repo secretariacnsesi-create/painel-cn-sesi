@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+<!-- Supabase -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+    const SUPABASE_URL = https://juumssktqhwqzxwxsiqd.supabase.co/rest/v1/;
+    const SUPABASE_ANON_KEY = sb_publishable_fVDE_gbWzRYwEQPbiIaEYQ_05kjVWlo;
+
+    const supabaseClient = window.supabase.createClient(
+        SUPABASE_URL,
+        SUPABASE_ANON_KEY
+    );
+</script>
+
+    <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CN-SESI | Painel de investimentos e eventos — base vazia</title>
